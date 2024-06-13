@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Jogo de dados</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v6.5.0/css/all.css"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <form>
+      <label for="aposta">Valor da aposta:</label>
+      <div id="inputGroup">
+        <input type="text" id="aposta" placeholder="Digite o valor do input" />
+
+        <button id="jogar">
+          <i class="fas fa-regular fa-dice"></i>
+        </button>
+      </div>
+    </form>
+
+    <div id="dados">
+      <box-icon id="dado1" name="dice-1" size="lg" color="#fff"></box-icon>
+      <box-icon id="dado2" name="dice-2" size="lg" color="#fff"></box-icon>
+    </div>
+
+    <div id="resultados">
+      <p id="resultado"></p>
+      <p id="valorFichas"></p>
+      <p id="bonus"></p>
+    </div>
+
+    <button id="reiniciar">Reiniciar o jogo</button>
+
+    <script src="./script.js"></script>
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+  </body>
+</html>
