@@ -1,5 +1,5 @@
 # Jogo de Dados
-Requisitos:
+**Requisitos:**
 Rodar em uma página HTML;
 Logica rodando em Javascript;
 Estilos em CSS;
